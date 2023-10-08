@@ -1,0 +1,23 @@
+# Ignore system-specific files
+.DS_Store
+.Spotlight-V100
+.Trashes
+Thumbs.db
+
+# Ignore build artifacts
+Dockerfile
+dist/
+
+# Ignore dependency files
+node_modules/
+package-lock.json
+
+# Ignore testing artifacts
+test/
+
+# Ignore personal files
+.bash_history
+.zshrc
+
+# Ignore sensitive files
+.env
